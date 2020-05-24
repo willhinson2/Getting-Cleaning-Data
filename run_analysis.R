@@ -44,7 +44,7 @@ colnames(combined_sub) <- "subject"
 totals <- cbind(combined_x, activities, combined_sub)
 combined_mean <- group_by(totals, activities, subject)
 final_mean <- summarize_all(combined_mean, funs(mean))
-write.table(combined_mean, file = "./getcleandata/UCI HAR Dataset/tidydata.txt", row.names = FALSE, col.names = TRUE)
+write.table(final_mean, file = "./getcleandata/UCI HAR Dataset/tidydata.txt", row.names = FALSE, col.names = TRUE)
 
 
 
