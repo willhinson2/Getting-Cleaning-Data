@@ -22,5 +22,5 @@ For each record in the dataset it is provided:
 
 When making my transformations, I created variables from the individual tables of test, train, subject_test, subject_train, features & activity_labels in order to tidy up the information and to remove the data points outside of the desired information.
 
-Additionally, in the data, there are 81 columns of data for each of the 30 subjects that encompass 6 activities.  
+Additionally, in the data, there are 68 columns of data for each of the 30 subjects that encompass 6 activities.  
 
